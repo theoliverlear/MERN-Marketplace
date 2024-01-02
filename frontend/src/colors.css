@@ -1,0 +1,9 @@
+:root {
+    --primary: hsl(240, 100%, 65%);
+    --light: hsl(240, 100%, 85%);
+    --dark: hsl(240, 100%, 45%);
+    --accent: hsl(32, 100%, 65%);
+    --neutral: hsl(0, 0%, 50%);
+    --white: hsl(0, 0%, 100%);
+    --black: hsl(0, 0%, 0%);
+}
