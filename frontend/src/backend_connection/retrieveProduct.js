@@ -14,7 +14,7 @@ function getRandomProduct() {
 }
 function getTestProduct() {
     const id = 1;
-    const name = "Super Mario Wonder";
+    const name = "Super Mario Bros. Wonder";
     const categories = ["Video Game", "Japanese", "Gaming"];
     const price = 59.99;
     const description = "The newest adventure of Mario, Luigi and " +
