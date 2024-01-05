@@ -1,7 +1,7 @@
 import "./ProductFeaturette.css";
-import BuyNowButton from "./BuyNowButton";
-import { getRandomProduct } from "./backend_connection/retrieveProduct";
-import { getTestProduct } from "./backend_connection/retrieveProduct";
+import BuyNowButton from "../buy_now_button/BuyNowButton";
+import { getRandomProduct } from "../../backend_connection/retrieveProduct";
+import { getTestProduct } from "../../backend_connection/retrieveProduct";
 
 function ProductFeaturette() {
     const product = getTestProduct();

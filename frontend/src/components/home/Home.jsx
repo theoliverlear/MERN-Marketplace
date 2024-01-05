@@ -1,4 +1,4 @@
-import ProductFeaturette from "./ProductFeaturette";
+import ProductFeaturette from "../product_featurette/ProductFeaturette";
 
 function Home() {
     return (

@@ -20,6 +20,7 @@
     padding: 0;
     text-decoration: underline;
     text-align: center;
+    color: var(--primary);
 }
 #product-div {
     display: inline-flex;
@@ -49,6 +50,6 @@
     padding-left: 1vw;
 }
 #product-data-div p, #product-data-div h4 {
-    margin: 0;
+    margin: 2vh;
     padding: 0;
 }

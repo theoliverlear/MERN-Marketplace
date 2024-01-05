@@ -1,7 +1,7 @@
 import './App.css';
-import Header from "./Header";
+import Header from "../header/Header";
 import React from "react";
-import Home from "./Home";
+import Home from "../home/Home";
 
 import {
     BrowserRouter as Router,
@@ -9,6 +9,12 @@ import {
     Routes,
 } from "react-router-dom";
 function App() {
+    React.useEffect(() => {
+        document.ondragstart = function() {
+            return false;
+        }
+    }, []);
+
     return (
         <div>
             <Router>
@@ -20,5 +26,4 @@ function App() {
         </div>
     )
 }
-
 export default App;
