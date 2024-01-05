@@ -1,0 +1,12 @@
+.AccountBubble img {
+    width: 4vw;
+    height: auto;
+    border: var(--black) calc((0.2vw + 0.2vh) / 2) solid;
+    border-radius: 50%;
+    margin-top: 1vh;
+    margin-right: 1vw;
+    transition: border 0.25s ease-in-out
+}
+.AccountBubble img:hover {
+    border: var(--accent) calc((0.2vw + 0.2vh) / 2) solid;
+}

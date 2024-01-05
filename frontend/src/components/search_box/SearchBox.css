@@ -1,0 +1,22 @@
+.SearchBox input {
+    /*background-color: #ff9900;*/
+    background-color: var(--light);
+    border: none;
+    border-radius: calc((0.4vw + 0.4vh) / 2);
+    color: var(--black);
+    cursor: pointer;
+    font-size: calc((1.5vw + 1.5vh) / 2);
+    font-weight: bold;
+    /*margin: calc((0.4vw + 0.4vh) / 2) 0;*/
+    padding: calc((0.4vw + 0.4vh) / 2) calc((0.2vw + 0.2vh) / 2);
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    transition: background-color ease-in-out 0.15s;
+}
+.SearchBox input::placeholder {
+    color: var(--black);
+}
+.SearchBox input:hover {
+    background-color: var(--primary);
+}
