@@ -3,7 +3,9 @@
     --light: hsl(240, 100%, 85%);
     --dark: hsl(240, 100%, 45%);
     --accent: hsl(32, 100%, 65%);
+    --accent-darker: hsl(32, 99%, 47%);
     --neutral: hsl(0, 0%, 50%);
+    --off-white: hsl(0, 0%, 97%);
     --white: hsl(0, 0%, 100%);
     --black: hsl(0, 0%, 0%);
 }
